@@ -1,0 +1,87 @@
+/* CSS Stylesheet */
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(31, 27, 51);
+    color: rgb(255, 220, 136);
+}
+
+h1 {
+    color: rgb(136, 255, 166);
+    font-size: 2.5rem;
+}
+
+#page-title {
+    background-color: rgb(255, 220, 136);
+    color: rgb(31, 27, 51);
+    padding: 10px;
+}
+
+h2, h3 {
+    color:  rgb(255, 236, 188);
+}
+
+.note {
+    padding: 10px;
+    background-color: rgba(172, 87, 87, 0.15);
+}
+
+p.highlight {
+    background-color: rgba(255, 136, 136, 0.3);
+}
+
+.btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 5px;
+}
+
+.btn-red {
+    background-color: #ff4444;
+}
+
+.btn-green {
+    background-color: rgb(100, 255, 100);
+}
+
+.btn-blue {
+    background-color: lightskyblue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    border: 10px solid black;
+    background-color: rgb(255, 220, 136);
+}
+
+/* Like a Microsoft word or Google Document, there are spaces on the side of the page to make it look aesthetically appealing. This is the margin. By shortening the margin from 50px to 10px, the box moved towards the left, since it had less margin space to hold itself back from. */
+
+.half {
+    width: 50%;
+    background-color: rgb(255, 220, 136);
+}
+
+#test {
+    color: green;
+}
+
+.test-class {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+/* The last text was green, because in terms of the selector hierarchy, the id selector is at the top of importance. */
+
+footer p {
+    font-size: 0.65em;
+    color: cyan;
+}
