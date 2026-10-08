@@ -1,1 +1,15 @@
 /* CSS stylesheet for DIY */
+
+* {
+
+}
+
+body {
+    background-color: #CCCDC7;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#top {
+    font-family: 'Bebas Neue', sans-serif;
+}
