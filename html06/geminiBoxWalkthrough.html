@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model Practice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;                  /* remove the browser's default space around the page */
+      background-color: #eeeeee;
+    }
+
+    * {
+      box-sizing: border-box;
+      outline: 1px solid red;     /* CSS layout debug outline */
+    }
+
+    .card {
+      width: 100%;               /* changed to 100% to fit neatly inside the main container */
+      background-color: white;
+      padding: 16px 32px;
+      border: 4px solid rgb(92, 50, 131);
+      border-radius: 20px;
+      margin-bottom: 1.5rem;
+    }
+    
+    .card h2 {
+      margin-top: 0;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      margin-right: 0.5rem;
+      background-color: white;
+      color: blue;
+      text-decoration: none;
+      border-radius: 4px;
+      border: 2px solid blue;
+    }
+
+    nav a:hover {
+      background-color: #0d47a1;
+      color: white;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background-color: #0d2a4a;
+      color: white;
+      padding: 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Box Model Practice</h1>
+    <nav>
+      <a href="#card-1">Card 1</a>
+      <a href="#card-3">Card 3</a>
+      <a href="#card-5">Card 5</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="card" id="card-1">
+      <h2>Card One: Sticky Positioning</h2>
+      <p>Scroll down to see the header stay fixed at the top of your screen. <code>position: sticky</code> toggles between relative and fixed positioning depending on the user's scroll position.</p>
+    </div>
+
+    <div class="card" id="card-2">
+      <h2>Card Two: The Box Model</h2>
+      <p>Every element in CSS is a rectangular box made of four layers: <strong>content</strong>, <strong>padding</strong>, <strong>border</strong>, and <strong>margin</strong>.</p>
+    </div>
+
+    <div class="card" id="card-3">
+      <h2>Card Three: Padding vs Margin</h2>
+      <p><strong>Padding</strong> creates space <em>inside</em> the element's border, while <strong>Margin</strong> creates space <em>outside</em> the border pushing adjacent elements away.</p>
+    </div>
+
+    <div class="card" id="card-4">
+      <h2>Card Four: Box-Sizing</h2>
+      <p>With <code>box-sizing: border-box</code>, padding and border width are included in the overall width and height calculation, preventing elements from overflowing their containers.</p>
+    </div>
+
+    <div class="card" id="card-5">
+      <h2>Card Five: Z-Index</h2>
+      <p>The <code>z-index: 10</code> on the header ensures that as you scroll, these cards pass <em>underneath</em> the sticky header rather than overlapping on top of it.</p>
+    </div>
+
+    <div class="card" id="card-6">
+      <h2>Card Six: Extra Content</h2>
+      <p>Adding more text and sections allows you to test smooth scrolling and verify how sticky positioning behaves across long pages.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; Box Model & Sticky Header Practice Page</p>
+  </footer>
+</body>
+</html>
