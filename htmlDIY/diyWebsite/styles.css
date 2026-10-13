@@ -1,15 +1,146 @@
 /* CSS stylesheet for DIY */
 
-* {
+/* { outline: 1px solid red; }   /* X-RAY: shows every box. Remove when done. */
 
-}
+/* Universal Page Properties */
 
 body {
-    background-color: #CCCDC7;
+    background-color: #b8bfc1;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin: 0;
 }
 
 #top {
+    font-family: 'Bebas Neue', 'Helvetica', sans-serif;
+    background-color: #2a4a5a;
+    margin: 0rem;
+    padding: 2rem 0rem;
+    margin: 0rem;
+}
+
+h1 {
+    padding: 0rem 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 6rem;
+    font-weight: 500;
+    color: #b8bfc1;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.headnav a, .headnav {
+    padding: 1rem;
+    margin: 0rem;
+    font-size: 2rem;
+    color: #8ca4b4;
+    text-decoration: none;
+}
+
+nav a:hover, .contactlinks a {
+    color: #ff9165
+}
+
+footer {
+    background-color: #2a4a5a;
     font-family: 'Bebas Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 2000px 0 2000px #2a4a5a;
+}
+
+footer p {
+    font-size: 2rem;
+    padding: 0.25rem 0 0 0;
+    margin: 0.5rem;
+    color: #b8bfc1
+}
+
+.footernav a, .footernav {
+    color: #8ca4b4;
+    text-decoration: none;
+    padding: 0rem 0rem 1rem 0rem;
+    margin: 0; 
+    font-size: 1.25rem;
+}
+
+/* Index Page Properties */
+
+.indexnav a, .indexnav{
+    display: flex; 
+    color:#8ca4b4;
+    background-color: #2a4a5a;
+    text-decoration: none;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 650;
+}
+
+.videobox {
+    background-color: #2a4a5a;
+}
+
+video {
+    width: 600px;
+    padding: 1rem 0rem;
+    margin: 0;
+}
+
+/* About/Gallery Page Properties */
+
+#photos img {
+    max-width: 100%;
+    height: auto;
+    padding: 2px 0px;
+    border: 5px solid #2a4a5a;
+    border-radius: 20px;
+}
+
+#photos figcaption {
+    font-size: 1.25rem;
+    margin: 0.5rem 0rem 4rem 0rem;
+}
+
+#compare table{
+    text-align: center;
+    border: 3px solid #2a4a5a;
+    margin: 0 auto;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+#compare th {
+    background-color: #2a4a5a;
+    padding: 0.5rem 1rem;
+    color: #b8bfc1;
+}
+
+#compare td {
+    border: 2px solid #2a4a5a ;
+    padding: 0.5rem 1rem;
+    font-weight: 525;
+}
+
+.aboutnav a, .aboutnav {
+    margin: 1rem;
+    background-color: #2a4a5a;
+    color: #8ca4b4;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+/* Contact Page Properties */
+
+.contactlinks a, .contactlinks {
+    color: #8ca4b4;
+    text-decoration: none;
+    background-color: #2a4a5a;
+    padding: 1rem;
+    font-weight: 550;
+    margin: 1rem 0rem 2rem 0rem;
 }
