@@ -93,7 +93,7 @@ video {
 /* About/Gallery Page Properties */
 
 #photos img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     padding: 2px 0px;
     border: 5px solid #2a4a5a;
@@ -143,4 +143,8 @@ video {
     padding: 1rem;
     font-weight: 550;
     margin: 1rem 0rem 2rem 0rem;
+}
+
+.contactlinks a:hover {
+    color: #ff9165;
 }
