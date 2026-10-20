@@ -1,0 +1,14 @@
+/* VALOR HAULING STYLESHEET */
+
+* {outline: 2px solid blue;}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: crimson;
+    margin: 0;
+    padding: 0;
+}
+
