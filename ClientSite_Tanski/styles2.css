@@ -1,0 +1,8 @@
+/* VALOR HAULING STYLESHEET */
+
+/* UNIVERSAL PROPERTIES */
+
+* {
+    box-sizing: border-box;
+    outline: 2px solid blue;
+}

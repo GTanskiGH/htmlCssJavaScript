@@ -1,0 +1,154 @@
+/* Reset Basic Margins & Box Sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* --------------------------------------------------
+   1. TOP CONTACT BAR (CSS Grid Layout)
+-------------------------------------------------- */
+.top-bar {
+  background-color: #0b6623; /* Dark Green */
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+.top-bar-content {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Left announcement fills space, Right contact info sits aligned */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.top-bar-right {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+/* --------------------------------------------------
+   2. MAIN NAVIGATION CONTAINER (CSS Grid Layout)
+-------------------------------------------------- */
+.main-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+  z-index: 10; /* Ensures logo badge overlaps above hero image */
+}
+
+.nav-container {
+  display: grid;
+  /* Grid Columns: Logo | Spacer | Nav Links | CTA Button */
+  grid-template-columns: auto 1fr auto auto; 
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  position: relative;
+}
+
+/* Overlapping Logo Container */
+.logo-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: -40px; /* Pulls logo down over the hero section */
+  border-radius: 4px;
+}
+
+.logo-img {
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+.logo-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #0b6623;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #0b6623;
+}
+
+/* Call To Action Button */
+.cta-btn {
+  background-color: #0b6623;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.cta-btn:hover {
+  background-color: #084d1a;
+}
+
+/* --------------------------------------------------
+   3. HERO SECTION
+-------------------------------------------------- */
+.hero {
+  background-image: url('https://via.placeholder.com/1600x600'); /* Replace with background image */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+}
+
+.hero-overlay {
+  display: grid;
+  align-items: center;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-card {
+  background-color: rgba(0, 0, 0, 0.65); /* Semi-transparent dark background */
+  color: white;
+  padding: 30px;
+  border-radius: 6px;
+  max-width: 550px;
+}
+
+.hero-card h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.hero-card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
