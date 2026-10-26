@@ -6,3 +6,71 @@
     box-sizing: border-box;
     outline: 2px solid blue;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.head-grid {
+    display: grid;
+    grid-template-columns: 1 fr auto 1fr; /*Sides have equal space, logo fills rest */
+    grid-template-rows: repeat(2, 1fr); /*Creates 2 rows*/
+    gap: 10px;
+    align-items: center;
+}
+
+.top-bar {
+    background-color: crimson;
+}
+
+.top-bar-left {
+    display: flex;
+    grid-row: 1;
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-area {
+    grid-row: span 2;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.image-area img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.top-bar-right {
+    display: flex;
+    grid-row: 1;
+    grid-column: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bar {
+    
+}
+
+.main-bar-left {
+    display: flex;
+    grid-row: 2;
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bar-right {
+    display: flex;
+    grid-row: 2;
+    grid-column: 3;
+    justify-content: center;
+    align-items: center;
+}
