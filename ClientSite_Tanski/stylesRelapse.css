@@ -1,0 +1,39 @@
+/* CSS STYLESHEET */
+
+* {
+    box-sizing: border-box;
+    outline: 2px solid blue;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header-grid {
+   height: 200px;
+   display: grid;
+   grid-template-columns: 1fr auto 1fr;
+   grid-template-rows: 1fr 2fr;
+}
+
+.box-1 {
+    background-color: lightcoral;
+    grid-column: ;
+}
+
+.box-2 {
+    background-color: lightyellow;
+}
+
+.box-3 {
+    background-color: lightgreen;
+}
+
+.box-4 {
+    background-color: lightblue;
+}
+
+.box-5 {
+    background-color: lightpink;
+}

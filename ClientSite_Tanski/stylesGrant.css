@@ -70,7 +70,7 @@ header {
     background-color: var(--background-color);
 }
 
-.back-image img {
+#layer-1 {
     margin-top: -50px;
     z-index: -1;
 }

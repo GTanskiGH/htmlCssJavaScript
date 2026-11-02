@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html09a Walkthrough</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>html09a Walkthrough</h1>
+  <p>Open the Console to see what this page's JavaScript prints.</p>
+
+  <!-- Scripts go at the end of the body -->
+  <script>
+    // Your walkthrough JavaScript goes below this line
+
+    /*
+        html09a Walkthrough
+        Name: Grant Tanski
+        This script practices console output, comments, and variables.
+    */
+    console.log('Hello, world!') // One line placeholder comment
+    console.log('Javascript is running.')
+    /* 
+        Good comments say what the code is for
+        not just what it does.
+    */
+
+    // String: text, always inside quotes
+    let firstName = 'Grant';
+
+    // Number: no quotes. Can be whole or decimal.
+    let age = 16;
+    let price = 3.75;
+
+    // Boolean: only true or false. No quotes.
+    let isStudent = true;
+
+    console.log(firstName);
+    console.log(age);
+    console.log(isStudent);
+
+    // Join text and variables with +
+
+    console.log('My name is ' + firstName + ' and I am ' + age + ' years old.');
+
+    // let: the value can change later
+    let score = 0;
+    score = 10;          // this works
+    console.log(score);
+
+    // const: the value is set once and never changes
+    const schoolName = 'Medina County Career Center';
+    console.log(schoolName);
+
+  </script>
+</body>
+</html>
