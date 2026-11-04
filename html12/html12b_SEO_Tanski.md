@@ -16,7 +16,7 @@ Type your answers on the blank line under each **Answer:**, or fix the code insi
 |---|---|---|
 | 1 | Crawl | A program follows links across pages to find other pages. |
 | 2 | Index | Said program defines what each page is about, and puts them in a massive list. |
-| 3 | Rank | On teh arrival of a search, the program finds the matching pages and adds the most useful ones. |
+| 3 | Rank | On the arrival of a search, the program finds the matching pages and adds the most useful ones. |
 
 **b.** You just built a new page, but **no other page links to it**. Why might a search engine have trouble finding it? (Hint: think about how crawlers find pages.)
 
@@ -36,7 +36,7 @@ The results that specify that they are sponsored are paid, while the rest are or
 
 **Answer:**
 
-
+SEO cretaes organic traffic, which continues to be free and provides customers constantly without having to pay a dime.
 
 ## 3. Fix the head
 
@@ -53,6 +53,11 @@ This is the `<head>` of a bakery's home page. It works, but it is weak for SEO.
 
 ```html
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakery in Ryeville, OH | Bread & Breakfast</title>
+  <meta name="description" content="Pristine pastries and prestigious rooms for any customer. Book a room online.">
 
 ```
 
@@ -60,6 +65,7 @@ This is the `<head>` of a bakery's home page. It works, but it is weak for SEO.
 
 **Answer:**
 
+the title tag shows up in the browser tab, while the meta description tends to be placed under the title link when searching for a website.
 
 ## 4. Fix the page
 
@@ -74,6 +80,8 @@ Your fixed version:
 
 ```html
 
+<img src="room-one-front-view.jpg" alt="Layout and amenities of first room">
+<a href="menu.html">Click here</a> to see our menu.
 
 ```
 
@@ -81,6 +89,7 @@ Your fixed version:
 
 **Answer:**
 
+A page cannot have more than one h1 tag. One h1 should be provided to the main atention of the page, and the rest should be h2 tags.
 
 ## 5. Spot the problem
 
@@ -92,10 +101,15 @@ What is this called? What will a search engine do about it? Rewrite it as a good
 
 **Answer:**
 
+If a keyword stuffing incident happens like the one above, the search engine will mark it as spam and hurt its chances as being displayed. 
+
+Rewrite = `content="best cheap shoes to buy near me"`
 
 **j.** Name **two** SEO choices that also help people who use screen readers. Explain how each one helps both.
 
 **Answer:**
+
+The alt text can help screen readers to understand what an image represents, while the heading order allows screen readers to determine the rough page outline.
 
 
 ## 6. Your own site
@@ -104,6 +118,11 @@ What is this called? What will a search engine do about it? Rewrite it as a good
 
 ```html
 
+<head>
+  <meta charset="UTF-8">
+  <title>Grant Tanski's Art Portfolio | Home</title>
+  <meta name="description" content="a curated selection of highlights from my Daily Doodles project">
+</head>
 
 ```
 
@@ -112,9 +131,9 @@ What is this called? What will a search engine do about it? Rewrite it as a good
 
 | Term | Your definition |
 |---|---|
-| SEO | |
-| Crawler (spider) | |
-| Organic results | |
-| Meta description | |
-| Keyword stuffing | |
-| SERP | |
+| SEO | Search Engine Optimization is when html tags help web browsers to provide website rankings. |
+| Crawler (spider) | A robot creates by a search engine that follows links between pages to find other pages.|
+| Organic results | Search browser website rankings that come from SEO methods instead of paid sponsoring.|
+| Meta description | The description that appears below a link when searching for websites.|
+| Keyword stuffing | A description in which keywords are repeated and spammed together (detracts from the website ranking).|
+| SERP | The Search Engine Results Page is the page that pops up when searching for a website.|
