@@ -1,7 +1,7 @@
 **Before you start:** rename this file to `html12c_Protocols_lastname.md`, using your own last name. Watch videos 7–11 and use **Part 3** of `html12_ColorsSeoProtocols_StudyGuide.md` (in this folder) to answer. Put the file in an `html12` folder in your `htmlCssJavaScript` repo. Commit and push when you're done.
 
 **Name:**
-
+Grant Tanski
 ---
 
 # Task 12c — Internet Protocols

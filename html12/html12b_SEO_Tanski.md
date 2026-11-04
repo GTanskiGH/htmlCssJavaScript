@@ -1,7 +1,7 @@
 **Before you start:** rename this file to `html12b_SEO_lastname.md`, using your own last name. Watch videos 4–6 and use **Part 2** of `html12_ColorsSeoProtocols_StudyGuide.md` (in this folder) to answer. Put the file in an `html12` folder in your `htmlCssJavaScript` repo. Commit and push when you're done.
 
 **Name:**
-
+Grant Tanski
 ---
 
 # Task 12b — Search Engine Optimization (SEO)

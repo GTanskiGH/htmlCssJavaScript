@@ -1,7 +1,7 @@
 **Before you start:** rename this file to `html12a_Colors_lastname.md`, using your own last name. Watch videos 1–3 and use **Part 1** of `html12_ColorsSeoProtocols_StudyGuide.md` (in this folder) to answer. Put the file in an `html12` folder in your `htmlCssJavaScript` repo. Commit and push when you're done.
 
 **Name:**
-
+Grant Tanski
 ---
 
 # Task 12a — Web Colors (RGB and Hex)
