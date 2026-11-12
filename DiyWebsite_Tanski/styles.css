@@ -52,6 +52,11 @@ hr {
     "box-1 vdiv-1 box-2 vdiv-2 box-3";
 }
 
+.vdiv-1, .vdiv2 {
+    background-color: var(--white);
+    width=
+}
+
 a {
     color: var(--white);
     text-decoration: none;
